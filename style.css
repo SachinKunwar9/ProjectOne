@@ -1,0 +1,139 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,900&family=Poppins&display=swap');
+
+
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+    color:#fff;
+    background-image:url('./neom-YeLs9lJDx9M-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin:3rem;
+}
+
+h1{
+    font-weight: 900;;
+}
+
+.container {
+    height:100vh;
+    display:flex;
+    justify-content: cneter;
+    align-items:center;
+    font-size: 16px;
+    flex-direction:column;
+}
+
+.box{
+    width:350px;
+    height:700px;
+    font-size:12px;
+    padding:40px 40px;
+    background-color: #1c2128;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius:48px;
+
+}
+
+
+.user {
+    margin-top:50px;
+}
+
+.fas{
+    position:absolute;
+}
+
+input{
+    width:90%;
+    margin-bottom: 25px;
+    padding:0px 30px 10px;
+    font-size: 16px;
+    border:none;
+    border-bottom: 1px solid #f5f5;
+    outline:none;
+    background-color:transparent;
+    color:#fff;
+    transition: .3s all;
+}
+
+input:focus {
+    border-bottom:1px solid #ff7f;
+}
+
+.reset-password{
+    color:#f806dc;
+    text-align:right;
+    margin-top: 0px;
+    font-size: 1rem;
+    cursor:pointer;
+}
+
+.reset-password>  a:hover{
+    text-decoration: underline;
+    color:#e0673b;
+}
+
+.login-btn{
+    margin-top:25px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.btn{
+    display:block;
+    width:70%;
+    padding:15px;
+    background-color:#7853a8;
+    color:#f1a364;
+    border:none;
+    border-radius: 10px;
+    font-size:20px;
+    font-weight:600;
+    opacity:0.8;
+    transition:.2s all;
+    cursor:pointer;
+    border:2px solid rgba(11, 46, 52, 0.025);
+}
+
+.btn:hover {
+    opacity:1;
+    border: 2px solid navajowhite;
+    color:navajowhite;
+}
+
+.signup span{
+    color:#7fb8e6;
+    cursor: pointer;
+    transition:.3s color;
+}
+.signup span:hover{
+   color:#3793df;
+}
+
+.user-list {
+    height:100vh;
+    display:flex;
+    justify-content: cneter;
+    align-items:center;
+    font-size: 16px;
+    flex-direction:column;
+}
+
+.user-list{
+    width:350px;
+    height:700px;
+    font-size:12px;
+    padding:40px 40px;
+    background-color: #1c2128;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius:48px;
+
+}
